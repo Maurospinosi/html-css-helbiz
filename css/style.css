@@ -8,12 +8,16 @@ ul{
   list-style: none;
 }
 .header-top{
+  position: fixed;
+  width: 100%;
   line-height: 80px;
   font-size: 13px;
+  font-weight: 600;
+  background-color: white;
 }
 .header-list li{
   display: inline-block;
-  padding:0 20px;
+  padding:0 25px;
 }
 .header-list a{
   color: black;
@@ -21,4 +25,26 @@ ul{
 .eng{
   border-left: 1px solid black;
   border-right: 1px solid black;
+  text-align: center;
+  padding-right: 10px;
+}
+.login{
+  padding-left: 20px;
+}
+.login a{
+  color: white;
+  background-color: black;
+  padding: 13px 25px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.header-bottom{
+  height: 800px;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+  text-align: center;
 }
