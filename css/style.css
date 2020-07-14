@@ -1,0 +1,24 @@
+body{
+  font-family: 'Open Sans', sans-serif ;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.header-top{
+  line-height: 80px;
+  font-size: 13px;
+}
+.header-list li{
+  display: inline-block;
+  padding:0 20px;
+}
+.header-list a{
+  color: black;
+}
+.eng{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
