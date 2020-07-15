@@ -1,3 +1,4 @@
+/* generale */
 body{
   font-family: 'Open Sans', sans-serif ;
 }
@@ -7,44 +8,73 @@ a{
 ul{
   list-style: none;
 }
+/* generale */
+
+/*header-top: logo con barra di navigazione   */
 .header-top{
-  position: fixed;
-  width: 100%;
   line-height: 80px;
-  font-size: 13px;
-  font-weight: 600;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
   background-color: white;
 }
-.header-list li{
+.header-top img{
+  width:100px;
+  height: 16px;
+}
+.one li{
+  padding: 0px 25px;
+}
+.top-list li{
   display: inline-block;
-  padding:0 25px;
-}
-.header-list a{
-  color: black;
-}
-.eng{
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  text-align: center;
-  padding-right: 10px;
+  font-size: 13px;
+  font-weight: 600;
 }
 .login{
-  padding-left: 20px;
-}
-.login a{
-  color: white;
   background-color: black;
-  padding: 13px 25px;
+  color: white;
+  padding: 10px 30px;
   font-weight: 700;
   font-size: 15px;
+  }
+.eng{
+  border-left: solid black 0.5px;
+  border-right: solid black 0.5px;
+  padding: 0px 8px;
+  font-weight: 400;
 }
+.hamburger{
+  text-align: right;
+}
+/*header-top: logo con barra di navigazione   */
+
+/* header-bottom: immagine di sfondo con titolo centrale  */
 .header-bottom{
   height: 800px;
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 80px;
+  margin-top: 80px;
+  position: relative;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 h1{
+  font-size: 60px;
+}
+.header-bottom .col-lg-12{
   color: white;
   text-align: center;
 }
+.header-bottom img{
+  width: 250px;
+  padding-right: 50px;
+}
+
+/* header-bottom: immagine di sfondo con titolo centrale  */
