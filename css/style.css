@@ -78,3 +78,32 @@ h1{
 }
 
 /* header-bottom: immagine di sfondo con titolo centrale  */
+/* prima sezione del main */
+.main-top{
+  margin-top: 10rem;
+}
+#helbizgo{
+  width: 240px;
+  height: 30px;
+}
+#bici{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  right: 70px;
+}
+.main-top-rl{
+  text-align: center;
+  line-height: 50px;
+
+}
+.main-top-right{
+  margin-right: 30px;
+  background-color: rgb(249,249,249);
+  padding: 70px;
+}
+.main-top-left{
+  background-color: rgb(249,249,249);
+  margin-left: 30px;
+  padding: 70px;
+}
